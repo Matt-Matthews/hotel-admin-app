@@ -1,0 +1,136 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: #293462;
+    position: relative;
+}
+.logout{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    color: #feb139;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.home h1{
+    color: white;
+}
+.row-container{
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: space-between;
+}
+.hotel-form{
+    width: 48%;
+    height: 70vh;
+}
+.hotel-form h2{
+    color: white;
+    margin-top: 2%;
+
+}
+.hotels-container{
+    width: 48%;
+    
+}
+.admin-form{
+    margin-top: 3%;
+    background-color: #d61c4e;
+    width: 80%;
+    height: 80%;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0;
+}
+.admin-form input{
+    width: 60%;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.ratings{
+    width: 62%;
+    display: flex;
+    justify-content: flex-start;
+}
+.ratings select{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+}
+.admin-form textarea{
+    width: 60%;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 5px;
+    height: 30%;
+    outline: none;
+    border: none;
+}
+.admin-form button{
+    border-radius: 5px;
+    background-color: #feb139;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1%;
+}
+.hotels-container{
+    margin-top: 3.5%;
+
+}
+.hotel-card{
+    display: flex;
+    align-items: center;
+    background-color: #d61c4e;
+    width: 80%;
+    gap: 10%;
+    margin-top: 2%;
+    border-radius: 25px;
+    padding: 3% 0;
+    height: 30%;
+    text-align: start;
+    color: white;
+}
+.hotel-img{
+    background-color: white;
+    height: 80%;
+    width: 25%;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+.hotel-det{
+    height: 80%;
+}
+.hotel-det h4{
+    margin-top: 5%;
+}
+.hotel-det p{
+    margin-top: 2%;
+}
+.hotel-det button{
+    margin-top: 2%;
+    height: 25px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #feb139;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
